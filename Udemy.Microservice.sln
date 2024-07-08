@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{D2B71C12-2F51-4CF1-A41A-7D1ADB2FCE48}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{C16FAC66-A57D-4E7E-B644-CDB8CF7ACB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{87E29D10-161A-4210-AED2-EBA1E07D4098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{D2B71C12-2F51-4CF1-A41A-7D1ADB2FCE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B71C12-2F51-4CF1-A41A-7D1ADB2FCE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B71C12-2F51-4CF1-A41A-7D1ADB2FCE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E29D10-161A-4210-AED2-EBA1E07D4098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E29D10-161A-4210-AED2-EBA1E07D4098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E29D10-161A-4210-AED2-EBA1E07D4098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E29D10-161A-4210-AED2-EBA1E07D4098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,8 @@ Global
 		{0AC71899-9DC0-4951-B6F9-36470D0ADEF6} = {0A6F99D0-C5C8-45F2-8C70-787B0F955A8A}
 		{423156F0-E6F0-4182-AEE2-A46DB47ECCF0} = {0AC71899-9DC0-4951-B6F9-36470D0ADEF6}
 		{D2B71C12-2F51-4CF1-A41A-7D1ADB2FCE48} = {F1D782B3-096C-48F6-9F19-98AD871F07A5}
+		{C16FAC66-A57D-4E7E-B644-CDB8CF7ACB94} = {0A6F99D0-C5C8-45F2-8C70-787B0F955A8A}
+		{87E29D10-161A-4210-AED2-EBA1E07D4098} = {C16FAC66-A57D-4E7E-B644-CDB8CF7ACB94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF2628FC-3A13-4C7F-9CFB-AD83DF2C2CBD}
