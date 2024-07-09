@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
-using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +35,6 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ISharedIdentityService, SharedIdentityService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
 
-
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -44,7 +42,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.Audience = "resource_basket";
         options.MapInboundClaims = false;
     });
-
 
 var app = builder.Build();
 
