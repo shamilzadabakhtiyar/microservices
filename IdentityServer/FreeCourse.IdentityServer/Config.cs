@@ -18,6 +18,7 @@ namespace FreeCourse.IdentityServer
                 new ApiResource("resource_photo_stock"){Scopes={"photo_stock_fullpermission"}},
                 new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
                 new ApiResource("resource_discount"){Scopes={"discount_fullpermission"}},
+                new ApiResource("resource_order"){Scopes={"order_fullpermission"}},
                 new ApiResource(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -46,6 +47,7 @@ namespace FreeCourse.IdentityServer
                 new ApiScope("photo_stock_fullpermission", "Full permission for Photo stock API"),
                 new ApiScope("basket_fullpermission", "Full permission for Basket API"),
                 new ApiScope("discount_fullpermission", "Full permission for Discount API"),
+                new ApiScope("order_fullpermission", "Full permission for Order API"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -70,6 +72,7 @@ namespace FreeCourse.IdentityServer
                     AllowedScopes = {
                          "basket_fullpermission",
                          "discount_fullpermission",
+                         "order_fullpermission",
                          IdentityServerConstants.StandardScopes.Email,
                          IdentityServerConstants.StandardScopes.OpenId,
                          IdentityServerConstants.StandardScopes.Profile,
